@@ -435,11 +435,11 @@ Despues llenamos los datos con la siguiente información:
 
 *Nota de ser necesario en la parte superior donde dice agregar 1 columnas al hacer click podemos agregar mas columnas.
 
-Tras crear la tabla se irá en la seccion de insertar y se añaden los siguientes datos:
+Tras crear y guardar la tabla se irá en la seccion de insertar y se añaden los siguientes datos:
 
 ![](https://github.com/DiegoLlampallas/Basededatos/blob/main/14.png?raw=true)
 
-tras esto dará un código que se ocupará en la sección de function donde se acoplará y se programará en esa sección.
+Tras esto dará un código que se ocupará en la sección de function donde se acoplará y se programará en esa sección.
 
 ## Usarlo en node-red
 
