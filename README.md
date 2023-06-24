@@ -461,6 +461,8 @@ Mysql:
 ![](https://github.com/DiegoLlampallas/Basededatos/blob/main/9.png?raw=true)
 ![](https://github.com/DiegoLlampallas/Basededatos/blob/main/10.png?raw=true)
 
+Al final se le dará en el boton rojo Deploy y se visualizaran los resultados.
+
 ## Resultados
 
 Cuando haya funcionado, verás los valores dentro del monitor serial en "wokwi" y en la página creada en red-node y los datos apareceran en phpMyAdmin.
