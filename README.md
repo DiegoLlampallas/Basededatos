@@ -479,7 +479,7 @@ Cuando haya funcionado, verás los valores dentro del monitor serial en "wokwi" 
 
  3. Funcionamiento en la página web creada en red-node:
 
- ![](https://github.com/DiegoLlampallas/Basededatos/blob/main/11.png?raw=true)
+ ![](https://github.com/DiegoLlampallas/Basededatos/blob/main/15.png?raw=true)
 
 ## Evidencias
 
