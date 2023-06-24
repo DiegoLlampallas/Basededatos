@@ -364,6 +364,8 @@ Se anexa el bloque debug sólo para visualizar que existe comunicación entre el
 
 ![](https://github.com/DiegoLlampallas/ULTRASONICNODERED/blob/main/0.png?raw=true)
 
+
+
 Tras completar todo esto puede empezar la simulación de operación tanto en "wokwi" como en el "node red" como se mostrará acontinuación: 
 
 ### Instrucciónes de operación
@@ -395,9 +397,73 @@ Opción 2:
 
 ![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/32.png?raw=true)
 
+
+# Instalación de phpMyAdmin
+
+## Instalación
+1. Entrar a la pagina https://www.apachefriends.org/ .
+2. Descargar ```XAMPP for Windows (8.2.4)```. 
+![](https://github.com/DiegoLlampallas/Basededatos/blob/main/1.png?raw=true)
+
+
+3. Se les decargara un archivo llamado **xampp-windows-x64-8.2.4-0VS16-installer**.
+![](https://github.com/DiegoLlampallas/Basededatos/blob/main/2.png?raw=true)
+
+4. Ejecutamos el archivo en modo administrador e installamos.
+
+## Ejecutar 
+
+1. Debemos abrir el programa llamado XAMPP.
+2. Dentro de la interfaz nos vamos a la fila llamada **Mysql**.
+3. Le damos doble click al boton **Admin**.
+
+![](https://github.com/DiegoLlampallas/Basededatos/blob/main/3.png?raw=true)
+
+Tras esto le damos en crear base de datos en la sección de la izquierda:
+![](https://github.com/DiegoLlampallas/Basededatos/blob/main/12.png?raw=true)
+
+Y le ponemos el nombre que deseemos (en este caso diplomado1):
+![](https://github.com/DiegoLlampallas/Basededatos/blob/main/4.png?raw=true)
+
+Tras esto le damos en tabla en la sección de la izquierda:
+![](https://github.com/DiegoLlampallas/Basededatos/blob/main/13.png?raw=true)
+
+Y le ponemos el nombre que deseemos (en este caso tabla1).
+
+Despues llenamos los datos con la siguiente información:
+![](https://github.com/DiegoLlampallas/Basededatos/blob/main/5.png?raw=true)
+
+*Nota de ser necesario en la parte superior donde dice agregar 1 columnas al hacer click podemos agregar mas columnas.
+
+Tras crear la tabla se irá en la seccion de insertar y se añaden los siguientes datos:
+
+![](https://github.com/DiegoLlampallas/Basededatos/blob/main/14.png?raw=true)
+
+tras esto dará un código que se ocupará en la sección de function donde se acoplará y se programará en esa sección.
+
+## Usarlo en node-red
+
+Se colocará el bloque de Mysql y un bloque de función para obtener los datos con el siguente codigo. 
+
+![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/10.png?raw=true)
+![](https://github.com/DiegoLlampallas/Basededatos/blob/main/7.png?raw=true)
+
+Se conectan:
+
+![](https://github.com/DiegoLlampallas/Basededatos/blob/main/6.png?raw=true)
+
+Tras esto se configuran primero function:
+
+![](https://github.com/DiegoLlampallas/Basededatos/blob/main/8.png?raw=true)
+
+Mysql:
+
+![](https://github.com/DiegoLlampallas/Basededatos/blob/main/9.png?raw=true)
+![](https://github.com/DiegoLlampallas/Basededatos/blob/main/10.png?raw=true)
+
 ## Resultados
 
-Cuando haya funcionado, verás los valores dentro del monitor serial en "wokwi" y en la página creada.
+Cuando haya funcionado, verás los valores dentro del monitor serial en "wokwi" y en la página creada en red-node y los datos apareceran en phpMyAdmin.
 
 ## Funcionamiento
 
@@ -405,9 +471,13 @@ Cuando haya funcionado, verás los valores dentro del monitor serial en "wokwi" 
 
  ![](https://github.com/DiegoLlampallas/ULTRASONICDHT22NODERED/blob/main/28.png?raw=true)
 
-2. Funcionamiento en la página web creada:
+2. Funcionamiento en la página web creada en red-node:
 
  ![](https://github.com/DiegoLlampallas/ULTRASONICDHT22NODERED/blob/main/29.png?raw=true)
+
+ 3. Funcionamiento en la página web creada en red-node:
+
+ ![](https://github.com/DiegoLlampallas/Basededatos/blob/main/11.png?raw=true)
 
 ## Evidencias
 
