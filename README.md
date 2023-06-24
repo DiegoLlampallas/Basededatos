@@ -477,7 +477,7 @@ Cuando haya funcionado, verás los valores dentro del monitor serial en "wokwi" 
 
  ![](https://github.com/DiegoLlampallas/ULTRASONICDHT22NODERED/blob/main/29.png?raw=true)
 
- 3. Funcionamiento en la página web creada en red-node:
+ 3. Funcionamiento en la página web creada en phpMyAdmin:
 
  ![](https://github.com/DiegoLlampallas/Basededatos/blob/main/15.png?raw=true)
 
